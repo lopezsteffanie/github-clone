@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Universe Code",
+        "repo": "youtube-clone",
+        "status": "Public",
+        "stack": "Next.js - Tailwind"
+    },
+    {
+        "name": "Universe Code",
+        "repo": "udemy-clone",
+        "status": "Public",
+        "stack": "React.js - Tailwind"
+    }
+]
