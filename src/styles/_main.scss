@@ -1,0 +1,7 @@
+@import "../styles/mainLeft.scss";
+@import "../styles/mainRight.scss";
+
+.main {
+    display: flex;
+    background-color: var(--first-color);
+}

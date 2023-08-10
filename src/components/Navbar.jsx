@@ -2,6 +2,7 @@ import React from 'react'
 import img1 from '../img/img1.png';
 import img2 from '../img/img2.png';
 import { FiBell, FiPlus } from 'react-icons/fi';
+import { FaGithubSquare } from 'react-icons/fa';
 import { IoMdArrowDropdown } from 'react-icons/io';
 
 function Navbar() {
@@ -12,7 +13,7 @@ function Navbar() {
                 <img src={img1} alt="" />
 
                 <div>
-                    <input type="text" placeholder="Search or jump to" />
+                    <input type="text" placeholder="Search" />
                 </div>
             </div>
 

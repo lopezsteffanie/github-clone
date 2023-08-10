@@ -1,13 +1,25 @@
 [
     {
-        "name": "Universe Code",
-        "repo": "youtube-clone",
+        "name": "Stevie Codes It",
+        "repo": "repo-1",
         "status": "Public",
         "stack": "Next.js - Tailwind"
     },
     {
-        "name": "Universe Code",
-        "repo": "udemy-clone",
+        "name": "Stevie Codes It",
+        "repo": "repo-2",
+        "status": "Public",
+        "stack": "React.js - Tailwind"
+    },
+    {
+        "name": "Stevie Codes It",
+        "repo": "repo-3",
+        "status": "Public",
+        "stack": "React.js - Tailwind"
+    },
+    {
+        "name": "Stevie Codes It",
+        "repo": "repo-4",
         "status": "Public",
         "stack": "React.js - Tailwind"
     }
