@@ -2,6 +2,7 @@ import React from 'react'
 import { IoMdArrowDropdown } from 'react-icons/io'
 import lists from "../lists.json"
 import img2 from '../img/img2.png';
+import { Link } from 'react-router-dom';
 
 function MainLeft() {
     return (
@@ -37,7 +38,7 @@ function MainLeft() {
                             </div>
                         </div>
                     ))}
-                    <a href="#">Show more</a>
+                    <Link to="/profile">Show more</Link>
                 </div>
 
                 <div className="line" />

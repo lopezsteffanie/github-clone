@@ -1,7 +1,8 @@
-import React from 'react'
-import { IoBulbOutline } from 'react-icons/io5'
-import { MdRssFeed } from 'react-icons/md'
-import img1 from '../img/img1.png'
+import React from 'react';
+import { IoBulbOutline } from 'react-icons/io5';
+import { MdRssFeed } from 'react-icons/md';
+import img1 from '../img/img1.png';
+import { Link } from 'react-router-dom';
 
 function MainRight() {
     return (
@@ -21,7 +22,7 @@ function MainRight() {
                         View my <span>Portfolio Website</span> for more.
                     </p>
                     <button className="btn">
-                        <a href="#">GitHub Clone</a>
+                        <Link to="/profile">GitHub Clone</Link>
                     </button>
                 </div>
 
