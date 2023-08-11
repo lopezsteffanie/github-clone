@@ -37,7 +37,7 @@ function Profile() {
 
             <div className="lineFour" />
 
-            <div className="sectionC">
+            <div className="sectionCenter">
                 <Left />
                 <Overview />
             </div>
