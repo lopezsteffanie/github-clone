@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import img1 from '../img/img1.png';
 import img2 from '../img/img2.png';
 import { FiBell, FiPlus } from 'react-icons/fi';
+import { FaGithub } from 'react-icons/fa';
 import { IoMdArrowDropdown } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import Menu from './Menu';
@@ -14,9 +14,12 @@ function Navbar() {
         <nav className="navbar">
             {/*Left*/}
             <div className="navLeft">
-                <Link to="/">
-                    <img src={img1} alt="" />
-                </Link>
+
+            <Link to="/">
+                <div className="navLeftIcon">
+                    <FaGithub />
+                </div>
+            </Link>
 
                 <div>
                     <input type="text" placeholder="Search" />

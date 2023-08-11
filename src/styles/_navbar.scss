@@ -16,11 +16,6 @@
         align-items: center;
         justify-content: space-around;
 
-        img {
-            width: 40px;
-            object-fit: contain;
-        }
-
         input {
             width: 260px;
             height: 34px;
@@ -37,6 +32,17 @@
         input:focus {
             width: 400px;
             transition: width ease-out 0.3s;
+        }
+
+        .navLeftIcon {
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--grey2-color);
         }
     }
 
